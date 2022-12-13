@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>secondslide</title>
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="secondslide.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+<div class="container-slider">
+    <ol class="carousel-indicators">
+        <li class="point" id="one" class="active"><i class="fas fa-play"></i>
+        </li>
+        <li class="point" id="two"><i class="fas fa-play"></i></li>
+        <li class="point" id="three"><i class="fas fa-play"></i></li>
+        <li class="point" id="four"><i class="fas fa-play"></i></li>
+    </ol>
+  <div>
+    <button class="btn" id="next"><i class="fas fa-arrow-left"></i></button>
+    <button class="btn" id="last"><i class="fas fa-arrow-right"></i></button>
+    <ul class="list-content" id="container-slide">
+      <li class="slide" data-slide-to="1">
+          <h1>Mon text</h1>
+          <p>BLABLABLABLA</p>
+      </li>
+      <li class="slide" data-slide-to="2">
+          <h1>Mfqfqfon text2</h1>
+          <p>BLABLABLfqABLA2</p>
+      </li>
+      <li class="slide" data-slide-to="3"></li>
+      <li class="slide" data-slide-to="4"></li>
+    </ul>
+  </div>
+</div>
+<script src="secondslide.js"></script>
+</body>
+</html>
